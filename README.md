@@ -64,13 +64,20 @@ También se busca sacar la información de cuantos animes por tipo tiene la pág
 
 Una vez tenido los datos anteriores, se puede sacar la información de la cantidad de anime que hay por categoría, para esto se uso la misma formula que se tuvo que ocupar para contabilizar los géneros. Al hacerlo nos da como resultado que la pagina tiene más Ovas que Películas.
 
+
 JKanime tiene una sección de los animes más votados de primavera 2021, para saber cuantos animes y cuales están en el top, se tuvo que escoger el elemento “.list” y la variable “h2”, pero aun así quedaban datos que se tenían que limpiar, una vez hecho esto se saco el numero de me gusta que tenía cada anime.
+
 
 Ahora se hace una data.frame para poder juntar los datos y para que se pueda observar de mejor manera los datos. Pero debido a que los Nombres Anime Top, no se podían limpiar del todo, a pesar de que se uso gsub y substr no se puedo borrar los números que venían con los nombres, por lo que se decidió hacer un gráfico con los datos que ya se tenían pero en excel.
 
-Para concluir se puede apreciar que a pesar que la pagina tiene varios géneros, la pagina se centra principalmente en ciertos géneros, los cuales son comedia, acción y psicológico, por lo que esta pagina sería ideal para consumidores que les guste estos géneros, en cambio si les gusta el yaoi, yuri u otro, tendrán que acudir a otra pagina por que en esta no encontraran lo que buscan.
 
-La pagina debería agregar más contenido de los géneros que tienen pocos animes, ademas de agregar más tipo de anime, es decir, especiales, tv, ect, para que el consumidor pueda encontrar más fácil lo que desea, puesto que como solo tiene Ova y película, los consumidores tendrán que ir al directorio y buscar por genero u orden de alfabeto el anime que desean ver.
+Para finalizar se puede concluir que al comparar las tres paginas, cada una tiene algo que la otra no tiene, un ejemplo de esto es que animefenix no tiene categorías, su navegador concentra a todo el anime, mientras que tioanime tiene 40 categorias, pero de estas hay varios géneros que no tienen ningún anime, por otro lado jkanime tiene 42 categorías y todas tienen algún anime, por lo que si el usuario quisiera ver algún genero en especifico, es preferible que use Jkanime.
 
-Esta pagina tiene varios puntos buenos como su Top de anime por temporada al igual que su “variado” genero, pero en algunos aspectos debería mejor para atraer más consumidores de los que ya tiene. 
+Por otro lado si se habla de tipo de anime, jkanime se queda atrás, ya que esta pagina solo tiene dos, mientras que las otras dos paginas tienen cuatro tipos, pero tioanime a pesar de que tiene las cuatro categorías, hay una que no tiene ninguna anime, por lo que si se quiere ver por tipo es preferible que el usuario escoja Animefenix
+
+Pero Tioanime no se queda atrás puesto que esta pagina es la que mayor animes finalizados tiene, al comparación de las otras dos paginas.
+
+Además se puede observar que one piece no es el anime mas visto en las paginas seleccionadas, ya que el primer lugar no se repite, por el contrario el segundo, si, el cual es one piece
+
+Por lo que queda al gusto del usuario escoger en que pagina ver anime, puesto que depende de él ver que pagina le gusta más.
 
